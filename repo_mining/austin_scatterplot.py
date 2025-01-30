@@ -79,8 +79,8 @@ def countfiles(dictfiles, lsttokens, repo):
                 shaUrl = 'https://api.github.com/repos/' + repo + '/commits/' + sha
                 shaDetails, ct = github_auth(shaUrl, lsttokens, ct)
                 filesjson = shaDetails['files']
-                author = shaDetails['commit']['author_of_commit']['name_of_commit']
-                date = shaDetails['commit']['author_of_commit']['date_of_commit']
+                author = shaDetails['commit']['author']['name']
+                date = shaDetails['commit']['author']['date']
 
                 for filenameObj in filesjson:
                     filename = filenameObj['filename']
@@ -121,7 +121,7 @@ for filename, commit_history in dictfiles.items():
         # the strptime() converts the string into date-time object
         # format is year, month, date, hours, minutes, seconds 
         commit_date = datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ")  
-        weeks_since_repo_creation = (commit_date - repo_creation__date).days // 7
+        weeks_since_repo_creation = (commit_date - repo_creation_date).days // 7
         author_data[author].append((weeks_since_repo_creation, filename))
 
 fig, ax = plt.subplots(figsize=(8, 8))
