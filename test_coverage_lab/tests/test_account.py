@@ -98,8 +98,20 @@ Each test should include:
 # - Ensure the retrieved account matches the created one.
 
 # TODO 4: Test Invalid Email Handling
-# - Check that invalid emails (e.g., "not-an-email") raise a validation error.
-# - Ensure accounts without an email cannot be created.
+# ===========================
+# Test: Invalid Email Handling
+# Author: Alan Reisenauer
+# Date: 2025-01-31
+# Description: Ensure invalid Emails are handled properly
+# ===========================
+def test_invalid_email_handling():
+    """Test invalid email input"""
+    #Check that invalid emails (e.g., "not-an-email") raise a validation error.
+    account = Account(email="not-an-email")
+    with pytest.raises(DataValidationError):
+        account.validate_email()
+    #Esnure accounts without an email cannot be created
+    account = Account(name="John Doe", role="user")
 
 # TODO 5: Test Password Hashing
 # - Ensure that passwords are stored as **hashed values**.
