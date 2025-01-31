@@ -1,0 +1,3368 @@
+{
+    "app/build.gradle.kts": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-18T10:02:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-17T14:34:47+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T18:31:03+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        }
+    ],
+    "app/proguard-rules.pro": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "build.gradle.kts": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-17T14:34:47+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        }
+    ],
+    "gradle.properties": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-18T10:02:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-04T06:47:42+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-02-08T20:34:17+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2018-06-14T16:02:26+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:31:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-29T11:25:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-05-18T08:05:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:13:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "gradle/libs.versions.toml": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:38:30+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        }
+    ],
+    "gradle/wrapper/gradle-wrapper.properties": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:38:30+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T12:31:03+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:31:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-24T14:15:39+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-05-17T15:21:28+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "rootbeerlib/build.gradle.kts": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-18T10:02:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T19:48:03+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T19:38:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        }
+    ],
+    "rootbeerlib/proguard-rules.pro": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "settings.gradle.kts": [
+        {
+            "author": "NiallScott",
+            "date": "2024-10-04T07:42:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-18T10:02:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T18:31:03+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        }
+    ],
+    "rootbeerlib/gradle.properties": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-18T10:02:36+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        }
+    ],
+    "README.md": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:18:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-06-07T08:54:51+00:00"
+        },
+        {
+            "author": "Harsh2098",
+            "date": "2021-06-07T08:50:08+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-04T07:04:38+00:00"
+        },
+        {
+            "author": "prempalsingh",
+            "date": "2020-07-27T18:50:09+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-07-21T13:58:39+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T13:12:19+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T13:03:18+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T12:51:22+00:00"
+        },
+        {
+            "author": "zhqcqupt",
+            "date": "2019-11-29T17:15:51+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2019-05-02T15:28:11+00:00"
+        },
+        {
+            "author": "shanmugasanthosh7",
+            "date": "2018-11-04T05:03:57+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-06-25T08:00:15+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-29T11:25:16+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-29T11:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T16:11:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:21:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-05-18T08:05:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "litrik",
+            "date": "2016-01-06T09:29:30+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-17T12:49:01+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-17T12:48:32+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-07-01T08:28:32+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:31:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T15:07:09+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T15:06:34+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T15:04:49+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:59:24+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:45:12+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:14:08+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T18:49:17+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:01:56+00:00"
+        }
+    ],
+    ".circleci/config.yml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:21:36+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:10:49+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T13:31:48+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T13:27:52+00:00"
+        }
+    ],
+    ".github/ISSUE_TEMPLATE.md": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        }
+    ],
+    ".github/PULL_REQUEST_TEMPLATE.md": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        }
+    ],
+    "CHANGE_LOG.md": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        }
+    ],
+    "app/src/main/AndroidManifest.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "deepakpk009",
+            "date": "2020-03-11T09:28:40+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:14:26+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "cre8ivejp",
+            "date": "2015-10-01T12:26:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/CheckForRootWorker.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2021-11-16T14:04:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-24T07:46:20+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-24T07:45:07+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/MainActivity.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T18:31:03+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/RootItemResult.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/RootSampleApp.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/extensions/ViewExtensions.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/ui/ResultIconView.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/ui/RootItemAdapter.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/ui/RootedResultTextView.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/ui/ScopedActivity.kt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/drawable/ic_check_circle_green_24dp.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/drawable/ic_error_circle_outline_red_24dp.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/drawable/ic_info_outline_white_24dp.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/drawable/ic_lock_open_white_24dp.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/layout/activity_main.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "deepakpk009",
+            "date": "2020-03-11T09:28:40+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:39:54+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:41:16+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:14:10+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:59:24+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/layout/item_root_check.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "app/src/main/res/menu/menu_main.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/values/colors.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T14:26:07+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:14:10+00:00"
+        }
+    ],
+    "app/src/main/res/values/dimens.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/values/strings.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/values/styles.xml": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/cpp/CMakeLists.txt": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/java/com/scottyab/rootbeer/util/Utils.java": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-03-15T13:13:43+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:14:08+00:00"
+        }
+    ],
+    "gradle-mvn-push.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-05T19:38:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2020-03-16T11:44:07+00:00"
+        }
+    ],
+    "gradle/wrapper/gradle-wrapper.jar": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:38:30+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:31:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "gradlew": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:38:30+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:31:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "gradlew.bat": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:38:30+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:31:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/build.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-03-11T09:38:15+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:45:47+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-06-14T14:54:13+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-29T11:25:16+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "prattpratt",
+            "date": "2016-07-07T08:48:51+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:14:26+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:14:10+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "build.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-02-08T21:35:00+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2020-01-31T00:54:28+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T12:31:03+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-06-14T14:54:13+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-08-19T16:20:33+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:32:04+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-24T14:09:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "prattpratt",
+            "date": "2016-07-07T08:48:51+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-05-17T15:21:28+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "dependencies.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        }
+    ],
+    "rootbeerlib/build.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        },
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2020-03-16T11:44:07+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-02-08T21:35:00+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2020-01-31T00:54:28+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T12:31:03+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:45:47+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:03:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T13:34:50+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-10-31T18:57:32+00:00"
+        },
+        {
+            "author": "ToTeTo",
+            "date": "2017-05-02T11:42:25+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "prattpratt",
+            "date": "2016-07-07T08:48:51+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "settings.gradle": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T21:18:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/AndroidManifest.xml": [
+        {
+            "author": "ArtsemKurantsou",
+            "date": "2024-08-04T19:40:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "cre8ivejp",
+            "date": "2015-10-06T08:56:57+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/java/com/scottyab/rootbeer/RootBeerNative.java": [
+        {
+            "author": "stealthcopter",
+            "date": "2021-05-24T07:35:11+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-29T11:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:57:05+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "changes.md": [
+        {
+            "author": "scottyab",
+            "date": "2024-09-12T10:16:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-04T06:47:42+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T11:42:07+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-29T11:25:16+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/cpp/toolChecker.cpp": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/cpp/toolChecker.h": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jni/Android.mk": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "slawert",
+            "date": "2020-07-17T08:05:44+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jni/Application.mk": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/arm64-v8a/libtool-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "biddster",
+            "date": "2016-03-07T14:21:36+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/armeabi-v7a/libtool-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T16:10:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/x86/libtool-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/x86_64/libtool-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2021-05-21T14:40:38+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T13:41:34+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "biddster",
+            "date": "2016-03-07T14:21:36+00:00"
+        }
+    ],
+    "app/src/main/ic_launcher-playstore.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-hdpi/ic_launcher.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:59:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-hdpi/ic_launcher_round.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-mdpi/ic_launcher.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:59:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-mdpi/ic_launcher_round.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xhdpi/ic_launcher.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:59:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxhdpi/ic_launcher.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:59:58+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T15:59:58+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/res/values/ic_launcher_background.xml": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T16:42:23+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/CheckRootTask.java": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:39:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T16:42:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-29T11:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:06+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T14:25:44+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/MainActivity.java": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:41:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:52+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-03-16T14:14:44+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:14:10+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:45:12+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:14:08+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootbeer/sample/TextViewFont.java": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:39:54+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:55:33+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-hdpi/ic_info_outline_white_18dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-hdpi/ic_info_outline_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-hdpi/ic_info_outline_white_36dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-hdpi/ic_lock_open_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-mdpi/ic_info_outline_white_18dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-mdpi/ic_info_outline_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-mdpi/ic_info_outline_white_36dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-mdpi/ic_lock_open_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_cross_red_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_info_outline_white_18dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_info_outline_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_info_outline_white_36dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_lock_open_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_tick_green_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxhdpi/ic_info_outline_white_18dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxhdpi/ic_info_outline_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxhdpi/ic_info_outline_white_36dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxhdpi/ic_lock_open_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxxhdpi/ic_info_outline_white_18dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxxhdpi/ic_info_outline_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxxhdpi/ic_info_outline_white_36dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxxhdpi/ic_lock_open_white_24dp.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable/pint_glass.png": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/layout/content_main.xml": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:52+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T14:26:07+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/values-w820dp/dimens.xml": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/res/values/attrs.xml": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/java/com/scottyab/rootbeer/Const.java": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "Fi5t",
+            "date": "2020-07-15T20:47:49+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-30T13:09:02+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T14:06:12+00:00"
+        },
+        {
+            "author": "BlizzedRu",
+            "date": "2019-12-09T10:32:18+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T16:42:19+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T12:02:21+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T11:36:53+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:30:47+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-03-15T13:13:43+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:13:36+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:59:48+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:40:46+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/test/java/com/scottyab/rootbeer/RootBeerTest.java": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-08T14:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-02-03T20:42:40+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2020-01-31T00:54:28+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-30T16:12:36+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T13:03:18+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T13:16:33+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-10-31T18:57:32+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/res/values/strings.xml": [
+        {
+            "author": "StefMa",
+            "date": "2020-07-22T11:25:49+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/java/com/scottyab/rootbeer/RootBeer.java": [
+        {
+            "author": "namouchislim",
+            "date": "2020-07-21T13:19:44+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-07-21T13:10:44+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-02-07T09:43:09+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2020-01-30T13:05:20+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T14:06:12+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T13:03:18+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2020-01-28T12:41:49+00:00"
+        },
+        {
+            "author": "BlizzedRu",
+            "date": "2019-12-09T10:32:18+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2019-03-14T12:24:58+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T11:04:28+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T10:59:44+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T16:49:07+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T16:42:19+00:00"
+        },
+        {
+            "author": "altvnv",
+            "date": "2018-03-16T12:14:23+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-09-29T08:23:05+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-08-19T16:20:33+00:00"
+        },
+        {
+            "author": "awaseem",
+            "date": "2017-08-11T15:34:54+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2017-06-07T07:53:52+00:00"
+        },
+        {
+            "author": "vyas-n",
+            "date": "2017-05-10T19:44:29+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-29T11:18:37+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T16:11:58+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:31:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:05:11+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "leocadiotine",
+            "date": "2016-09-14T21:25:21+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2016-04-18T16:36:03+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-03-15T13:13:43+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-12-22T10:17:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-12-22T10:11:09+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-12-21T20:44:58+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-12-21T20:43:55+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:45:20+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:45:12+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:14:20+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T14:14:08+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "art/RootBeer-tv-graphic.png": [
+        {
+            "author": "Unknown",
+            "date": "2020-03-11T09:38:15+00:00"
+        }
+    ],
+    "art/tv-1.png": [
+        {
+            "author": "Unknown",
+            "date": "2020-03-11T09:38:15+00:00"
+        }
+    ],
+    "art/tv-2.png": [
+        {
+            "author": "Unknown",
+            "date": "2020-03-11T09:38:15+00:00"
+        }
+    ],
+    "art/tv-3.png": [
+        {
+            "author": "Unknown",
+            "date": "2020-03-11T09:38:15+00:00"
+        }
+    ],
+    "art/sticker.png": [
+        {
+            "author": "Unknown",
+            "date": "2020-02-04T11:41:46+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/java/com/scottyab/rootbeer/util/QLog.java": [
+        {
+            "author": "Unknown",
+            "date": "2020-02-07T09:43:09+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T11:04:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-10-31T18:57:32+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-08-19T16:20:33+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-03-15T13:13:43+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T18:48:49+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    ".gitattributes": [
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:39:54+00:00"
+        }
+    ],
+    ".gitignore": [
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:43:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-24T14:15:39+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2017-03-24T14:12:34+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:06+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:07:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:06:26+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:01:56+00:00"
+        }
+    ],
+    "app/src/androidTest/java/com/scottyab/rootbeer/ApplicationTest.java": [
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:45:47+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/androidTest/java/com/scottyab/rootbeer/ApplicationTest.java": [
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:45:47+00:00"
+        },
+        {
+            "author": "danielkutik",
+            "date": "2019-11-16T02:34:24+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "app/libs/armeabi/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T16:01:52+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T14:32:45+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/armeabi/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/mips/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/mips64/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2018-05-11T12:00:38+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "biddster",
+            "date": "2016-03-07T14:21:36+00:00"
+        }
+    ],
+    "LICENSE": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:01:56+00:00"
+        }
+    ],
+    "app/.gitignore": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:43:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/app.iml": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:56:16+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:31:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:20:07+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "rootbeer.iml": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:56:16+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:31:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "rootbeerlib/.gitignore": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:43:00+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:26:11+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:07:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/rootbeerlib.iml": [
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:56:16+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-24T13:31:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-02-15T12:53:36+00:00"
+        },
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jni/toolChecker.cpp": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:55:31+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jni/toolChecker.h": [
+        {
+            "author": "scottyab",
+            "date": "2021-05-22T13:42:21+00:00"
+        },
+        {
+            "author": "friederbluemle",
+            "date": "2017-05-11T16:41:00+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        }
+    ],
+    "rootbeerlib/jni/build.sh": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "biddster",
+            "date": "2016-03-07T14:21:36+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T16:10:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/libs/arm64-v8a/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/libs/armeabi-v7a/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/libs/armeabi/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/libs/mips/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/libs/mips64/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/libs/x86/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/libs/x86_64/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        }
+    ],
+    "rootbeerlib/obj/local/armeabi/libstdc++.a": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/obj/local/armeabi/libtool-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/obj/local/armeabi/objs/tool-checker/toolChecker.o": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/obj/local/armeabi/objs/tool-checker/toolChecker.o.d": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T16:35:59+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/jni/toolChecker.cpp": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "Unknown",
+            "date": "2016-09-16T14:04:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T12:58:19+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T16:10:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "art/ss_got_root_fail.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:21:13+00:00"
+        }
+    ],
+    "art/ss_no_root_pass.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:21:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:37:52+00:00"
+        }
+    ],
+    "art/RootBeer-feature-graphic.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:28+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:37:52+00:00"
+        }
+    ],
+    "art/ss-got-root-fail.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:21:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:28+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:37:52+00:00"
+        }
+    ],
+    "art/ss_home_b4_test.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:28+00:00"
+        }
+    ],
+    "art/ss_info.png": [
+        {
+            "author": "scottyab",
+            "date": "2016-07-01T20:13:28+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:37:52+00:00"
+        }
+    ],
+    ".idea/.name": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/compiler.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/copyright/profiles_settings.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/gradle.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/misc.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:20:07+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/modules.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    ".idea/runConfigurations.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:20:07+00:00"
+        }
+    ],
+    ".idea/vcs.xml": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/assets/SubwayNovella.ttf": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-hdpi/ic_action_github.png": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xhdpi/ic_action_github.png": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        }
+    ],
+    "app/src/main/res/drawable-xxhdpi/ic_action_github.png": [
+        {
+            "author": "andyb129",
+            "date": "2016-07-01T14:40:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-29T13:06:14+00:00"
+        }
+    ],
+    "RootChecker.iml": [
+        {
+            "author": "scottyab",
+            "date": "2016-03-14T21:04:13+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:51:16+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:20:07+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "art/rootbeer-icon-playstore.png": [
+        {
+            "author": "scottyab",
+            "date": "2015-09-16T12:37:52+00:00"
+        }
+    ],
+    "art/rootbeerjesus.png": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T15:31:31+00:00"
+        }
+    ],
+    "rootbeerlib/jni/toolChecker.h": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:36:54+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T14:14:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T16:10:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/jni/Application.mk": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-30T13:03:45+00:00"
+        }
+    ],
+    "art/root_beer_icon.svg": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-30T12:58:32+00:00"
+        }
+    ],
+    "rootbeerlib/src/main/jniLibs/armeabi-v7a/libroot-checker.so": [
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T16:00:20+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "rootbeerlib/jni/Android.mk": [
+        {
+            "author": "stealthcopter",
+            "date": "2017-03-13T22:35:27+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootchecker/RootCheck.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T14:41:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T14:32:45+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:21:37+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T17:20:07+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootchecker/Const.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T14:32:45+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootchecker/MainActivity.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-26T14:32:45+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/jni/Android.mk": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/jni/build.sh": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/jni/toolChecker.cpp": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        }
+    ],
+    "app/jni/toolChecker.h": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootchecker/RootCheckNative.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/src/main/jniLibs/armeabi-v7a/libroot-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/src/main/jniLibs/armeabi-v7a/libtool-checker.so": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        }
+    ],
+    "app/jni/rootChecker.cpp": [
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/jni/rootChecker.h": [
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T11:06:02+00:00"
+        },
+        {
+            "author": "stealthcopter",
+            "date": "2015-06-19T10:09:22+00:00"
+        }
+    ],
+    "app/src/androidTest/java/com/scottyab/rootchecker/ApplicationTest.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ],
+    "app/src/main/java/com/scottyab/rootchecker/util/QLog.java": [
+        {
+            "author": "scottyab",
+            "date": "2015-06-26T15:50:40+00:00"
+        },
+        {
+            "author": "scottyab",
+            "date": "2015-06-19T09:05:10+00:00"
+        }
+    ]
+}
