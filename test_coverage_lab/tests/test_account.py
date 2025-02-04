@@ -98,7 +98,7 @@ Each test should include:
 # - Validate that missing fields trigger the correct exception.
 
 # ===========================
-# Test: Account Role Assignment
+# Test: Test Missing Required Fields
 # Author: Riley Ramos
 # Date: 2025-02-04
 # Description: Ensure accounts missing required fields raise exceptions.
