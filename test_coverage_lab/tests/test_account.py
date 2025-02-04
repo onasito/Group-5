@@ -97,6 +97,7 @@ Each test should include:
 # - Create an account and retrieve it using its ID.
 # - Ensure the retrieved account matches the created one.
 
+<<<<<<< Updated upstream
 # TODO 4: Test Invalid Email Handling
 # ===========================
 # Test: Invalid Email Handling
@@ -112,6 +113,45 @@ def test_invalid_email_handling():
         account.validate_email()
     #Esnure accounts without an email cannot be created
     account = Account(name="John Doe", role="user")
+=======
+# ===========================
+# Test: Account Role Assignment
+# Author: Riley Ramos
+# Date: 2025-02-04
+# Description: Ensure accounts missing required fields raise exceptions.
+# ===========================
+def test_missing_required_fields():
+    """Test creating an account that's missing required fields"""
+    # Attempt to create an account with missing name
+    account = Account(name=None, email="ramos@example.com")
+    
+    # Account with missing name should raise an exception
+    with pytest.raises(Exception) as exception:
+        db.session.add(account)
+        db.session.commit() 
+    
+    # Verify correct 'null name' exception was raised
+    db.session.rollback()
+    exception_str = str(exception) 
+    assert "NOT NULL constraint failed: account.name" in exception_str 
+    
+    # Attempt to create an account with missing email
+    account = Account(name="Riley", email=None)
+    
+    # Account with missing email should raise an error
+    with pytest.raises(Exception) as exception:
+        db.session.add(account)
+        db.session.commit() 
+    
+    # Verify correct 'null email' exception was raised
+    db.session.rollback()
+    exception_str = str(exception) 
+    assert "NOT NULL constraint failed: account.email" in exception_str 
+
+# TODO 4: Test Positive Deposit
+# - Ensure `deposit()` correctly increases the account balance.
+# - Verify that depositing a positive amount updates the balance correctly.
+>>>>>>> Stashed changes
 
 # TODO 5: Test Password Hashing
 # - Ensure that passwords are stored as **hashed values**.
