@@ -44,16 +44,16 @@ def setup_and_teardown():
 # Description: Ensure roles can be assigned and checked.
 # ===========================
 
-def test_account_role_assignment():
-    """Test assigning roles to an account"""
-    account = Account(name="John Doe", email="johndoe@example.com", role="user")
+# def test_account_role_assignment():
+#     """Test assigning roles to an account"""
+#     account = Account(name="John Doe", email="johndoe@example.com", role="user")
 
-    # Assign initial role
-    assert account.role == "user"
+#     # Assign initial role
+#     assert account.role == "user"
 
-    # Change role and verify
-    account.change_role("admin")
-    assert account.role == "admin"
+#     # Change role and verify
+#     account.change_role("admin")
+#     assert account.role == "admin"
 
 # ===========================
 # Test: Invalid Role Assignment
@@ -140,4 +140,25 @@ def test_invalid_email_handling():
 # TODO 11: Test Role-Based Access
 # - Ensure users with different roles ('admin', 'user', 'guest') have appropriate permissions.
 # - Verify that role changes are correctly reflected in the database.
+# ===========================
+# Test: Test role assignment (Student 9)
+# Author: Harrison Atherton
+# Date: 2025-01-31
+# Description: Ensure roles can be assigned and checked.
+# ===========================
+def test_account_role_assignment():
+    """Test assigning roles to an account"""
+    account = Account(name="John Doe", email="johndoe@example.com", role="user")
+    db.session.add(account)
+    db.session.commit()
 
+    # Retrieve from database
+    retrieved_account = Account.query.filter_by(email="johndoe@example.com").first()
+    assert retrieved_account.role == "user"
+
+    # Change role and verify
+    retrieved_account.change_role("admin")
+    db.session.commit()
+
+    updated_account = Account.query.filter_by(email="johndoe@example.com").first()
+    assert updated_account.role == "admin"
