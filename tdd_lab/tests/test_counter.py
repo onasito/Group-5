@@ -28,3 +28,13 @@ class TestCounterEndpoints:
         """It should create a counter"""
         result = client.post('/counters/foo')
         assert result.status_code == HTTPStatus.CREATED
+
+    #Writing failed test case for student 2
+    def test_duplicate_counter(self, client):
+        """It should return a conflict error if the counter already exists"""
+        # Create a counter
+        client.post('/counters/bar')
+        # Try to create the same counter again
+        result = client.post('/counters/bar')
+        assert result.status_code == HTTPStatus.CONFLICT
+        assert result.get_json() == {"error": "Counter bar already exists"}
