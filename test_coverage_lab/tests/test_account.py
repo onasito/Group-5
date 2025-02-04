@@ -97,23 +97,6 @@ Each test should include:
 # - Create an account and retrieve it using its ID.
 # - Ensure the retrieved account matches the created one.
 
-<<<<<<< Updated upstream
-# TODO 4: Test Invalid Email Handling
-# ===========================
-# Test: Invalid Email Handling
-# Author: Alan Reisenauer
-# Date: 2025-01-31
-# Description: Ensure invalid Emails are handled properly
-# ===========================
-def test_invalid_email_handling():
-    """Test invalid email input"""
-    #Check that invalid emails (e.g., "not-an-email") raise a validation error.
-    account = Account(email="not-an-email")
-    with pytest.raises(DataValidationError):
-        account.validate_email()
-    #Esnure accounts without an email cannot be created
-    account = Account(name="John Doe", role="user")
-=======
 # ===========================
 # Test: Account Role Assignment
 # Author: Riley Ramos
@@ -151,7 +134,6 @@ def test_missing_required_fields():
 # TODO 4: Test Positive Deposit
 # - Ensure `deposit()` correctly increases the account balance.
 # - Verify that depositing a positive amount updates the balance correctly.
->>>>>>> Stashed changes
 
 # TODO 5: Test Password Hashing
 # - Ensure that passwords are stored as **hashed values**.
