@@ -130,3 +130,25 @@ Each test should include:
 # - Ensure that `delete()` removes an account from the database.
 # - Verify that attempting to retrieve a deleted account returns `None` or raises an error.
 
+# ===========================
+# Test Group: Deleting an Account
+# ===========================
+
+# ===========================
+# Test: Account Deletion from database
+# Author: William Rosales
+# Date: 2025-02-3
+# Description: Ensure delete() removes an account.
+# ===========================
+def test_account_deletion():
+    """Test to delete account from data base"""
+    account = Account(name='Will', email='email@unlv.nevada.edu', role='user')
+    db.session.add(account)
+    db.session.commit()
+    
+    #deleting account from data base
+    account.delete()
+
+    #verifies if deleted account returns None or raises error 
+    check_account = Account.query.filter_by(email="email@unlv.nevada.edu").first()
+    assert check_account == None    
