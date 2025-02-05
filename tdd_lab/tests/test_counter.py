@@ -38,4 +38,3 @@ class TestCounterEndpoints:
         result = client.get('/counters/foo')
         assert result.status_code == status.HTTP_200_OK
       
-
