@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 COUNTERS = {}
 
+
 def counter_exists(name):
   """Check if counter exists"""
   return name in COUNTERS
@@ -20,6 +21,11 @@ def create_counter(name):
   COUNTERS[name] = 0
   return jsonify({name: COUNTERS[name]}), status.HTTP_201_CREATED
 
+# Get counter function
+@app.route('/counters/<name>', methods=['GET'])
+def get_counter(name):
+    """Finds counter"""
+    return jsonify({name: COUNTERS[name]}), status.HTTP_201_CREATED
 
 @app.route('/counters/<name>', methods=['GET'])
 def check_if_counter_exists(name): 
@@ -27,3 +33,4 @@ def check_if_counter_exists(name):
         return jsonify({"error": f"Counter {name} doesn't exist"}), status.HTTP_404_NOT_FOUND
     
     return jsonify({name: COUNTERS[name]}), status.HTTP_200_OK
+

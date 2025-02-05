@@ -14,7 +14,7 @@ how to call the web service and assert what it should return.
 import pytest
 from src import app
 from src import status
-    
+
 @pytest.fixture()
 def client():
     """Fixture for Flask test client"""
@@ -37,4 +37,9 @@ class TestCounterEndpoints:
         """It should return the 200 response because counter exists"""
         result = client.get('/counters/foo')
         assert result.status_code == status.HTTP_200_OK
-      
+        
+    def test_get_counter(self, client):
+        """It should retreive a counter"""
+        client.post('/counters/cat') # create a counter
+        result = client.get('/counters/cat') # retrieve the counter 
+        assert result.status_code == status.HTTP_201_CREATED # verify counter was retrieved
