@@ -100,6 +100,23 @@ Each test should include:
 # TODO 4: Test Positive Deposit
 # - Ensure `deposit()` correctly increases the account balance.
 # - Verify that depositing a positive amount updates the balance correctly.
+# ===========================
+# Test: Test Positive Deposit
+# Author: Stella Heo
+# Date: 2025-02-05
+# Description: Ensure `deposit()` correctly increases the account balance.
+#              Verify that depositing a positive amount updates the balance correctly.
+# ===========================
+def test_positive_deposit():
+    # Test the deposit amount correctly increases the balance
+    # Create a test user
+    account = Account(name="User Test", email="test@gmail.com", balance=0)
+    # Deposit a positive amount ($100)
+    account.deposit(100)
+
+    # Test that depositing a positive amount updates the balance correctly
+    assert account.balance == 100
+        
 
 # TODO 5: Test Deposit with Zero/Negative Values
 # - Ensure `deposit()` raises an error for zero or negative amounts.
