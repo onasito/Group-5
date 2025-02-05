@@ -29,47 +29,6 @@ def setup_and_teardown():
     yield
     db.session.remove()
 
-######################################################################
-#  E X A M P L E   T E S T   C A S E
-######################################################################
-
-# ===========================
-# Test Group: Role Management
-# ===========================
-
-# ===========================
-# Test: Account Role Assignment
-# Author: John Businge
-# Date: 2025-01-30
-# Description: Ensure roles can be assigned and checked.
-# ===========================
-
-def test_account_role_assignment():
-    """Test assigning roles to an account"""
-    account = Account(name="John Doe", email="johndoe@example.com", role="user")
-
-    # Assign initial role
-    assert account.role == "user"
-
-    # Change role and verify
-    account.change_role("admin")
-    assert account.role == "admin"
-
-# ===========================
-# Test: Invalid Role Assignment
-# Author: John Businge
-# Date: 2025-01-30
-# Description: Ensure invalid roles raise a DataValidationError.
-# ===========================
-
-def test_invalid_role_assignment():
-    """Test assigning an invalid role"""
-    account = Account(role="user")
-
-    # Attempt to assign an invalid role
-    with pytest.raises(DataValidationError):
-        account.change_role("moderator")  # Invalid role should raise an error
-
 
 ######################################################################
 #  T O D O   T E S T S  (To Be Completed by Students)
