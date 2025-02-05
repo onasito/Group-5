@@ -92,6 +92,20 @@ Each test should include:
 # TODO 2: Test Invalid Email Input
 # - Check that invalid emails (e.g., "not-an-email") raise a validation error.
 # - Ensure accounts without an email cannot be created.
+# ===========================
+# Test: Invalid Email Handling
+# Author: Alan Reisenauer
+# Date: 2025-01-31
+# Description: Ensure invalid Emails are handled properly
+# ===========================
+def test_invalid_email_handling():
+    """Test invalid email input"""
+    #Check that invalid emails (e.g., "not-an-email") raise a validation error.
+    account = Account(email="not-an-email")
+    with pytest.raises(DataValidationError):
+        account.validate_email()
+    #Esnure accounts without an email cannot be created
+    account = Account(name="John Doe", role="user")
 
 # TODO 3: Test Missing Required Fields
 # - Ensure that creating an `Account()` without required fields raises an error.
@@ -148,4 +162,3 @@ def test_zero_or_negative_deposits():
 # TODO 11: Test Deleting an Account
 # - Ensure that `delete()` removes an account from the database.
 # - Verify that attempting to retrieve a deleted account returns `None` or raises an error.
-
