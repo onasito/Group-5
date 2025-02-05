@@ -123,10 +123,25 @@ Each test should include:
 # - Verify that the updated role is stored in the database.
 
 # TODO 10: Test Invalid Role Assignment
-# - Ensure that assigning an invalid role raises an appropriate error.
-# - Verify that only allowed roles (`admin`, `user`, etc.) can be set.
+# ===========================
+# Test: Test Email Uniqueness Enforcement
+# Author: Jaison-Noah Sarte
+# Date: 2025-02-01
+# Description: Ensure that duplicate emails cannot be added to the database.
+# ===========================
+def validate_unique_email():
+    # Create the first account with a unique email
+    account1 = Account(name="Jai Noah", email="jainoah@example.com")
+    db.session.add(account1) # Add the account to the session
+    db.session.commit() # Commit
+    # Try to create another account with the same email
+    account2 = Account(name="Lionel Messi", email="jainoah@example.com")
+    
+    # Ensure that a duplicate email raises an error (DataValidationError)
+    with pytest.raises(DataValidationError):
+        db.session.add(account2) 
+        db.session.commit()  # Error raised as dup email is not allowed
 
 # TODO 11: Test Deleting an Account
 # - Ensure that `delete()` removes an account from the database.
 # - Verify that attempting to retrieve a deleted account returns `None` or raises an error.
-
