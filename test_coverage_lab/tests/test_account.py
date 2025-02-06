@@ -13,7 +13,7 @@ ACCOUNT_DATA = {}
 def load_account_data():
     """ Load data needed by tests """
     global ACCOUNT_DATA
-    with open('tests/fixtures/account_data.json') as json_data:
+    with open('./tests/fixtures/account_data.json') as json_data:
         ACCOUNT_DATA = json.load(json_data)
 
     # Set up the database tables
@@ -130,7 +130,6 @@ def test_missing_required_fields():
     db.session.rollback()
     exception_str = str(exception) 
     assert "NOT NULL constraint failed: account.email" in exception_str 
-=======
 def test_invalid_email_handling():
     """Test invalid email input"""
     #Check that invalid emails (e.g., "not-an-email") raise a validation error.
