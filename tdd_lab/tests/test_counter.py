@@ -43,3 +43,9 @@ class TestCounterEndpoints:
         client.post('/counters/cat') # create a counter
         result = client.get('/counters/cat') # retrieve the counter 
         assert result.status_code == status.HTTP_201_CREATED # verify counter was retrieved
+
+    def test_increment_counter(self, client):
+       """It should increment a counter"""
+       client.post('/counters/foo')
+       result = client.put('/counters/foo')
+       assert result.status_code == status.HTTP_200_OK
