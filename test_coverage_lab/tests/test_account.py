@@ -174,6 +174,35 @@ def test_positive_deposit():
 # - Ensure `withdraw()` correctly decreases the account balance.
 # - Verify that withdrawals within available balance succeed.
 
+# ===========================
+# Test: Test Valid Withdrawl
+# Author: Joel Mendoza
+# Date: 2025-02-06
+# Description: Validate withdraw function alters balance and doesn't over withdraw
+# ===========================
+def test_valid_withdraw():
+    """Test successful withdrawal that decreases the account balance"""
+    account = Account(name="Test", email="test@example.com", balance=100.0)
+    db.session.add(account)
+    db.session.commit()
+
+    # Withdraw a VALID amount
+    account.withdraw(50.0)
+
+    # Check if the balance was updated directly after withdrawal
+    assert account.balance == 50.0, f"Expected balance to be 50.0, but got {account.balance}"
+
+def test_withdraw_insufficient_balance():
+    """Test withdrawal that exceeds available balance raises DataValidationError"""
+    # Create a new account with an initial balance
+    account = Account(name="Test", email="test@example.com", balance=10.0)
+    db.session.add(account)
+    db.session.commit()
+
+    # Try to over-withdraw
+    with pytest.raises(DataValidationError):
+        account.withdraw(100.0)
+
 # TODO 7: Test Withdrawal with Insufficient Funds
 # - Ensure `withdraw()` raises an error when attempting to withdraw more than available balance.
 # - Verify that the balance remains unchanged after a failed withdrawal.
@@ -218,9 +247,6 @@ def test_zero_or_negative_deposits():
         account.deposit(-10)
     assert account.balance == acct_init_balance
 
-# TODO 6: Test Valid Withdrawal
-# - Ensure `withdraw()` correctly decreases the account balance.
-# - Verify that withdrawals within available balance succeed.
 
 # TODO 7: Test Withdrawal with Insufficient Funds
 # - Ensure `withdraw()` raises an error when attempting to withdraw more than available balance.
