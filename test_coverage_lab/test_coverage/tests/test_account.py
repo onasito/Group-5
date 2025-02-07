@@ -89,6 +89,44 @@ Each test should include:
 # - Ensure `to_dict()` correctly converts an account to a dictionary format.
 # - Verify that all expected fields are included in the dictionary.
 
+# ===========================
+# Test Group: Account Serialization
+# ===========================
+
+# ===========================
+# Test: Test Account Serialization
+# Author: Onasis Arrechavala
+# Date: 2025-02-06
+# Description: Verifies that all expected fields are included in the dictionary
+# ===========================
+# test_coverage_lab/test_account.py
+
+
+def test_to_dict():
+    """
+    Test that the to_dict() method correctly converts an Account object to a dictionary.
+    """
+    # Create an Account object
+    account = Account(name="Onasis A", email="onasisa@example.com", role="admin")
+
+    # Call the to_dict() method
+    result = account.to_dict()
+
+    # Verify the result is a dictionary
+    assert isinstance(result, dict), "to_dict() should return a dictionary"
+
+    # Verify all expected fields are present
+    expected_fields = ["name", "email", "role"]
+    for field in expected_fields:
+        assert field in result, f"Field '{field}' is missing in the dictionary"
+
+    # Verify the values are correct
+    assert result["name"] == "Onasis A", "Name should be 'Onasis A'"
+    assert result["email"] == "onasisa@example.com", "Email should be 'onasisa@example.com'"
+    assert result["role"] == "admin", "Role should be 'admin'"
+
+
+
 # TODO 2: Test Invalid Email Input
 # - Check that invalid emails (e.g., "not-an-email") raise a validation error.
 # - Ensure accounts without an email cannot be created.
