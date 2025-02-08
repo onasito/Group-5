@@ -6,6 +6,7 @@ from . import status
 
 app = Flask(__name__)
 
+
 COUNTERS = {}
 
 
@@ -21,16 +22,14 @@ def create_counter(name):
   COUNTERS[name] = 0
   return jsonify({name: COUNTERS[name]}), status.HTTP_201_CREATED
 
-# Get counter function
-@app.route('/counters/<name>', methods=['GET'])
-def get_counter(name):
-    """Finds counter"""
-    return jsonify({name: COUNTERS[name]}), status.HTTP_201_CREATED
 
-@app.route('/counters/<name>', methods=['GET'])
-def check_if_counter_exists(name): 
-    if not counter_exists(name): 
-        return jsonify({"error": f"Counter {name} doesn't exist"}), status.HTTP_404_NOT_FOUND
-    
-    return jsonify({name: COUNTERS[name]}), status.HTTP_200_OK
+@app.route('/counters/<name>', methods=['DELETE'])
+def delete_counter(name):
+    """Delete a counter"""
+    if name not in COUNTERS:
+        return jsonify({"error": f"Counter {name} does not exist"}), status.HTTP_404_NOT_FOUND
+        
+    del COUNTERS[name]
+    return '', status.HTTP_204_NO_CONTENT
+
 
