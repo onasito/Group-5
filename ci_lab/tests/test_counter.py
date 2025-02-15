@@ -258,10 +258,17 @@ class TestCounterEndpoints:
         client.post('/counters/a')
         client.post('/counters/b')
         client.put('/counters/a/set/5')
+        # Ensure that the b is set to 2
+        client.put("/counters/b/set/2")
 
         response = client.get('/counters/less/5')
 
         assert response.status_code == HTTPStatus.OK
+        # Parse the response
+        counters = response.get_json()
+        # Ensure that 'b' is in the response & the lowest value
+        assert 'b' in counters
+        assert counters['b'] == min(counters.values())
 
         # TODO: Add an assertion to ensure 'b' (value=2) is returned as the lowest.
 
