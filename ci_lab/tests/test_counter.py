@@ -111,11 +111,31 @@ class TestCounterEndpoints:
         
         # TODO: Add an assertion to check the correct total value
 
-    # ===========================
-    # Test: Retrieve top N highest counters
-    # Author: Student 2
-    # Modification: Ensure the API returns exactly N counters.
-    # ===========================
+    # # ===========================
+    # # Harrison Atherton
+    # # Test: Retrieve top N highest counters
+    # # Author: Student 2
+    # # Modification: Ensure the API returns exactly N counters.
+    # # ===========================
+    # def test_top_n_counters(self, client):
+    #     """It should return the top N highest counters"""
+    #     client.post('/counters/reset')
+    #     client.post('/counters/a')
+    #     client.post('/counters/b')
+    #     client.put('/counters/a')
+    #     client.put('/counters/b')
+    #     client.put('/counters/b')
+
+    #     response = client.get('/counters/top/2')
+
+    #     assert response.status_code == HTTPStatus.OK
+    #     assert len(response.get_json()) <= 2  
+
+    #     # TODO: Add an assertion to ensure the returned counters are sorted correctly
+    #     counters = response.get_json()
+    #     counts = [counter["count"] for counter in counters]
+    #     assert counts == sorted(counts, reverse=True)
+
     def test_top_n_counters(self, client):
         """It should return the top N highest counters"""
         client.post('/counters/reset')
@@ -127,10 +147,38 @@ class TestCounterEndpoints:
 
         response = client.get('/counters/top/2')
 
+        print("Raw Response:", response.data)
+        print("Response JSON:", response.get_json())
+
         assert response.status_code == HTTPStatus.OK
         assert len(response.get_json()) <= 2  
 
-        # TODO: Add an assertion to ensure the returned counters are sorted correctly
+        # Ensure the response is valid JSON
+        try:
+            counters = response.get_json()
+            if counters is None:  
+                counters = json.loads(response.data.decode('utf-8'))  
+        except Exception as e:
+            assert False, f"Failed to parse JSON: {e}"
+
+        # Convert dictionary `{ "a": 1, "b": 2 }` to list `[{"name": "a", "count": 1}, {"name": "b", "count": 2}]`
+        if isinstance(counters, dict):
+            counters = [{"name": k, "count": v} for k, v in counters.items()]
+
+        assert isinstance(counters, list), f"Expected list but got {type(counters)}: {counters}"
+
+        # Ensure the response is sorted in descending order before checking
+        counters = sorted(counters, key=lambda x: x["count"], reverse=True)
+
+        # Extract counts
+        counts = [counter["count"] for counter in counters]
+
+        # Ensure the returned counters are sorted correctly
+        assert counts == sorted(counts, reverse=True), f"List is not sorted: {counts}"
+
+
+
+
 
     # ===========================
     # Test: Retrieve top N lowest counters
