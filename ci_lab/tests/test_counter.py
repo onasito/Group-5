@@ -117,25 +117,6 @@ class TestCounterEndpoints:
     # # Author: Student 2
     # # Modification: Ensure the API returns exactly N counters.
     # # ===========================
-    # def test_top_n_counters(self, client):
-    #     """It should return the top N highest counters"""
-    #     client.post('/counters/reset')
-    #     client.post('/counters/a')
-    #     client.post('/counters/b')
-    #     client.put('/counters/a')
-    #     client.put('/counters/b')
-    #     client.put('/counters/b')
-
-    #     response = client.get('/counters/top/2')
-
-    #     assert response.status_code == HTTPStatus.OK
-    #     assert len(response.get_json()) <= 2  
-
-    #     # TODO: Add an assertion to ensure the returned counters are sorted correctly
-    #     counters = response.get_json()
-    #     counts = [counter["count"] for counter in counters]
-    #     assert counts == sorted(counts, reverse=True)
-
     def test_top_n_counters(self, client):
         """It should return the top N highest counters"""
         client.post('/counters/reset')
@@ -147,13 +128,13 @@ class TestCounterEndpoints:
 
         response = client.get('/counters/top/2')
 
-        print("Raw Response:", response.data)
-        print("Response JSON:", response.get_json())
-
         assert response.status_code == HTTPStatus.OK
         assert len(response.get_json()) <= 2  
 
         # Ensure the response is valid JSON
+        # counters = response.get_json()
+        # counts = [counter["count"] for counter in counters]
+        # assert counts == sorted(counts, reverse=True)
         try:
             counters = response.get_json()
             if counters is None:  
@@ -175,10 +156,6 @@ class TestCounterEndpoints:
 
         # Ensure the returned counters are sorted correctly
         assert counts == sorted(counts, reverse=True), f"List is not sorted: {counts}"
-
-
-
-
 
     # ===========================
     # Test: Retrieve top N lowest counters
