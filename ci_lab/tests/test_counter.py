@@ -238,6 +238,7 @@ class TestCounterEndpoints:
         # TODO: Add an assertion to verify the error message contains the word 'not found'
 
     # ===========================
+    # Stella Heo
     # Test: Get total number of counters
     # Author: Student 8
     # Modification: Add assertion to check count is an integer.
@@ -254,6 +255,7 @@ class TestCounterEndpoints:
         assert isinstance(response.get_json()["count"], int)  
 
         # TODO: Add an assertion to check the exact count value
+        assert response.get_json()["count"] == 2
 
     # ===========================
     # Test: Retrieve counters with values greater than a threshold
