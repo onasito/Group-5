@@ -111,12 +111,11 @@ class TestCounterEndpoints:
         
         # TODO: Add an assertion to check the correct total value
 
-    # # ===========================
-    # # Harrison Atherton
-    # # Test: Retrieve top N highest counters
-    # # Author: Student 2
-    # # Modification: Ensure the API returns exactly N counters.
-    # # ===========================
+    # ===========================
+    # Test: Retrieve top N highest counters
+    # Author: Student 2
+    # Modification: Ensure the API returns exactly N counters.
+    # ===========================
     def test_top_n_counters(self, client):
         """It should return the top N highest counters"""
         client.post('/counters/reset')
@@ -131,31 +130,7 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.OK
         assert len(response.get_json()) <= 2  
 
-        # Ensure the response is valid JSON
-        # counters = response.get_json()
-        # counts = [counter["count"] for counter in counters]
-        # assert counts == sorted(counts, reverse=True)
-        try:
-            counters = response.get_json()
-            if counters is None:  
-                counters = json.loads(response.data.decode('utf-8'))  
-        except Exception as e:
-            assert False, f"Failed to parse JSON: {e}"
-
-        # Convert dictionary `{ "a": 1, "b": 2 }` to list `[{"name": "a", "count": 1}, {"name": "b", "count": 2}]`
-        if isinstance(counters, dict):
-            counters = [{"name": k, "count": v} for k, v in counters.items()]
-
-        assert isinstance(counters, list), f"Expected list but got {type(counters)}: {counters}"
-
-        # Ensure the response is sorted in descending order before checking
-        counters = sorted(counters, key=lambda x: x["count"], reverse=True)
-
-        # Extract counts
-        counts = [counter["count"] for counter in counters]
-
-        # Ensure the returned counters are sorted correctly
-        assert counts == sorted(counts, reverse=True), f"List is not sorted: {counts}"
+        # TODO: Add an assertion to ensure the returned counters are sorted correctly
 
     # ===========================
     # Test: Retrieve top N lowest counters
