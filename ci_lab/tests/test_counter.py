@@ -225,6 +225,7 @@ class TestCounterEndpoints:
         # TODO: Add an assertion to check that retrieving the counter still works
 
     # ===========================
+    # Austin Kim
     # Test: Prevent resetting a non-existent counter
     # Author: Student 7
     # Modification: Ensure resetting a non-existent counter does not create it.
