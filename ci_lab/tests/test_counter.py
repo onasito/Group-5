@@ -225,6 +225,7 @@ class TestCounterEndpoints:
         # TODO: Add an assertion to check that retrieving the counter still works
 
     # ===========================
+    # Austin Kim
     # Test: Prevent resetting a non-existent counter
     # Author: Student 7
     # Modification: Ensure resetting a non-existent counter does not create it.
@@ -236,7 +237,8 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.NOT_FOUND
 
         # TODO: Add an assertion to verify the error message contains the word 'not found'
-
+        assert "not found" in response.get_json()['error']
+        
     # ===========================
     # Stella Heo
     # Test: Get total number of counters
