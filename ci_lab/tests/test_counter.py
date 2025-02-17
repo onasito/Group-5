@@ -158,6 +158,7 @@ class TestCounterEndpoints:
         assert counts == sorted(counts, reverse=True), f"List is not sorted: {counts}"
 
     # ===========================
+    # Riley Ramos
     # Test: Retrieve top N lowest counters
     # Author: Student 3
     # Modification: Ensure lowest counter has value 0.
@@ -174,6 +175,12 @@ class TestCounterEndpoints:
         assert min(response.get_json().values()) == 0  
 
         # TODO: Add an assertion to check that 'b' is indeed in the response
+        # get the bottom 2 counters
+        response = client.get('/counters/bottom/2')
+        # ensure request was a success
+        assert response.status_code == HTTPStatus.OK
+        # ensure 'b' is in the last 2 counters
+        assert 'b' in response.get_json()
 
     # ===========================
     # Test: Set a counter to a specific value
