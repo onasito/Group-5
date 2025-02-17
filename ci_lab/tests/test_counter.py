@@ -250,6 +250,7 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.NOT_FOUND
 
         # TODO: Add an assertion to verify the error message contains the word 'not found'
+        assert "not found" in response.get_json()['error']
 
     # ===========================
     # Stella Heo
