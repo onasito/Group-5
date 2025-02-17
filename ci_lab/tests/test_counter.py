@@ -206,7 +206,7 @@ class TestCounterEndpoints:
 
     # ===========================
     # Test: Prevent negative counter values
-    # Author: Student 5
+    # Author: Alan Reisenauer
     # Modification: Ensure setting a counter to zero is allowed.
     # ===========================
     def test_prevent_negative_counter_values(self, client):
@@ -220,6 +220,8 @@ class TestCounterEndpoints:
         assert response_negative.status_code == HTTPStatus.BAD_REQUEST  
         
         # TODO: Add an assertion to verify the response message contains a clear error
+        error_message = response_negative.get_json().get("error")
+        assert error_message == "Counter value cannot be negative"
 
     # ===========================
     # Test: Reset a single counter
