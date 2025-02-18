@@ -310,6 +310,7 @@ class TestCounterEndpoints:
         # TODO: Add an assertion to ensure 'b' (value=2) is returned as the lowest.
 
     # ===========================
+    # William Rosales
     # Test: Validate counter names (prevent special characters)
     # Author: Student 11
     # Modification: Ensure error message is specific.
@@ -321,3 +322,4 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.BAD_REQUEST
 
         # TODO: Add an assertion to verify the error message specifically says 'Invalid counter name'S
+        assert "Invalid counter name. " in response.get_json()['error'] 
