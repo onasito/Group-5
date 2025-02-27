@@ -224,6 +224,7 @@ class TestCounterEndpoints:
         assert error_message == "Counter value cannot be negative"
 
     # ===========================
+    # Joel Mendoza
     # Test: Reset a single counter
     # Author: Student 6
     # Modification: Ensure counter still exists after reset.
@@ -239,6 +240,9 @@ class TestCounterEndpoints:
         assert response.get_json() == {"test1": 0}
 
         # TODO: Add an assertion to check that retrieving the counter still works
+        response = client.get('/counters/test1')
+        assert response.status_code == HTTPStatus.OK
+        assert response.get_json() == {"test1": 0}
 
     # ===========================
     # Test: Prevent resetting a non-existent counter

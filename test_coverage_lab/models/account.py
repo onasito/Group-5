@@ -48,6 +48,12 @@ class Account(db.Model):
         if not re.match(email_regex, self.email):
             raise DataValidationError("Invalid email format")
 
+    def validate_unique_email(self):
+        """Ensures the email is unique in the database"""
+        existing_account = Account.query.filter_by(email=self.email).first()
+        if existing_account and existing_account.id != self.id:
+            raise DataValidationError("Email must be unique")
+
     def deposit(self, amount):
         """Deposits an amount into the account balance"""
         if amount <= 0:
@@ -75,6 +81,14 @@ class Account(db.Model):
         if new_role not in ["user", "admin"]:
             raise DataValidationError("Invalid role")
         self.role = new_role
+    
+    def deactivate(self):
+        """Deactivates the account"""
+        self.disabled = True
+
+    def reactivate(self):
+        """Reactivates the account"""
+        self.disabled = False
 
     def delete(self):
         """Deletes the account from the database"""
