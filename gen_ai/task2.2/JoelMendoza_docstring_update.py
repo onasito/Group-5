@@ -1,5 +1,6 @@
 
 '''
+    This code was for a CS 422 Machine Learning course.
     This code uses the MNIST_100 dataset which is a variation of the original MNIST dataset consisting of 100 handwritten numbers. 
 '''
 # Import necessary libraries
