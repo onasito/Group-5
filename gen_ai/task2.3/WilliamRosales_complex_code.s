@@ -54,79 +54,64 @@ section	.bss
 
 ; *****************************************************************
 
-section	.text
+section .text
 global _start
 _start:
 
-mov ecx, dword[length]
-mov rsi, 0
+mov ecx, dword[length]      ; Load length into ecx (counter)
+mov rsi, 0                  ; Initialize index to 0
+mov eax, dword[lst+rsi*4]   ; Load first element to eax for min and max comparison
+mov dword[lstMin], eax      ; Initialize lstMin with the first element
+mov r9d, eax                ; Initialize lstMax with the first element
+mov r10d, 0                 ; Initialize sum to 0
 
-mov eax, dword[lst+rsi*4] ;lst min
-mov dword[lstMin], eax
-
-mov r9d, dword[lst+rsi*4] ; lst max
-mov dword[lstMax], r9d  
 lp:
-add r10d, dword[lst+rsi*4] ;sum
+    ; Add current element to sum
+    add r10d, dword[lst+rsi*4]
 
-cmp eax, dword[lst+rsi*4]
-jbe min
+    ; Update min if current element is smaller
+    cmp eax, dword[lst+rsi*4]
+    jbe skipMin
+    mov eax, dword[lst+rsi*4]
+    mov dword[lstMin], eax
+skipMin:
 
-jmp Notmin
-Notmin:
-mov eax, dword[lst+rsi*4]
-mov dword[lstMin], eax
-min:
+    ; Update max if current element is larger
+    cmp r9d, dword[lst+rsi*4]
+    jae skipMax
+    mov r9d, dword[lst+rsi*4]
+    mov dword[lstMax], r9d
+skipMax:
 
-cmp r9d, dword[lst+rsi*4]
-jae max
+    inc rsi                   ; Increment index
+    loop lp                    ; Loop until ecx reaches 0
 
-jmp NotMax
-NotMax:
-mov r9d, dword[lst+rsi*4]
-mov dword[lstMax], r9d
-max:
-mov dword[lstSum], r10d 
-add rsi, 1
-loop lp
-;finds the average
-mov rax, 0
+; Store the sum of the list
+mov dword[lstSum], r10d
+
+; Calculate average (sum / length)
 mov eax, dword[lstSum]
-div dword[length]
-mov dword[lstAve], eax
+mov ebx, dword[length]      ; Load length into ebx
+div ebx                     ; Divide sum by length
+mov dword[lstAve], eax      ; Store average in lstAve
 
-; finds medium
-mov r11d, 2
-mov r12d, 4
-
+; Calculate median estimate (simple approximation)
 mov r10d, dword[lst]
-mov rax, 0
-mov r9d, dword[length]
-mov eax, dword[r9d]
-div r11d
+mov r11d, dword[length]
+mov r12d, 2
 
-add r10d, dword[lst+rax*4] ; addes the first half
-add rax, 1 ; increments by one
-add r10d, dword[lst+rax*4] ; adds the second half
-dec r9d
-add r10d, dword[lst+r9*4]; addes the last number into the reg
+; Add first half of the elements for the median
+mov r9d, dword[length]      ; Reload length into r9d for the median calculation
+mov eax, r9d
+div r12d                    ; Divide by 2 to get the midpoint
+add r10d, dword[lst+rax*4]  ; Add the middle element(s)
 
-mov rax, 0
-mov eax, dword[r10d]
+; Calculate the median estimate
+mov eax, r10d
 div r12d
-mov dword[estMed], eax
+mov dword[estMed], eax      ; Store estimated median in estMed
 
-
-
-
-
-
-
-
-; *****************************************************************
-;	Done, terminate program.
-
-last:
-	mov	rax, SYS_exit		; call call for exit (SYS_exit)
-	mov	rdi, EXIT_SUCCESS	; return code of 0 (no error)
-	syscall
+; Terminate program
+mov rax, SYS_exit
+mov rdi, EXIT_SUCCESS
+syscall
