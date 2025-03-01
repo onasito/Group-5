@@ -158,6 +158,7 @@ class TestCounterEndpoints:
         assert counts == sorted(counts, reverse=True), f"List is not sorted: {counts}"
 
     # ===========================
+    # Riley Ramos
     # Test: Retrieve top N lowest counters
     # Author: Student 3
     # Modification: Ensure lowest counter has value 0.
@@ -174,12 +175,37 @@ class TestCounterEndpoints:
         assert min(response.get_json().values()) == 0  
 
         # TODO: Add an assertion to check that 'b' is indeed in the response
+        # get the bottom 2 counters
+        response = client.get('/counters/bottom/2')
+        # ensure request was a success
+        assert response.status_code == HTTPStatus.OK
+        # ensure 'b' is in the last 2 counters
+        assert 'b' in response.get_json()
 
     # ===========================
+    # Onasis Arrechavala
     # Test: Set a counter to a specific value
     # Author: Student 4
     # Modification: Ensure setting a counter to the same value does nothing.
     # ===========================
+    '''
+    This test function verifies the behavior of setting a counter to a specific value using the API. 
+    Additionally, it ensures that setting the counter to the same value again does not alter its 
+    state or trigger unintended changes.
+    Create a Counter:
+        Sends a POST request to create a new counter named test1.
+    Set Counter to a Value:
+        Sends a PUT request to set test1 to 5.
+        Asserts that the response returns HTTP 200 (OK) and the counter is set to 5.
+    Set Counter to the Same Value Again:
+        Sends another PUT request to set test1 to 5 again.
+        Asserts that the response remains HTTP 200 (OK).
+        Asserts that the returned counter value remains unchanged at 5.
+    Expected Behavior:
+        The counter should correctly update when set to a new value.
+        Setting the counter to the same value should not cause any unintended changes
+    '''
+
     def test_set_counter_to_value(self, client):
         """It should set a counter to a specific value"""
         client.post('/counters/test1')
@@ -189,10 +215,16 @@ class TestCounterEndpoints:
         assert response.get_json() == {"test1": 5}
 
         # TODO: Add an assertion to check setting to the same value does not change it again
+        # Set the counter to the same value again (5)
+        response_same_value = client.put('/counters/test1/set/5')
+
+        # Check the response status code and ensure the counter value remains unchanged
+        assert response_same_value.status_code == HTTPStatus.OK
+        assert response_same_value.get_json() == {"test1": 5}
 
     # ===========================
     # Test: Prevent negative counter values
-    # Author: Student 5
+    # Author: Alan Reisenauer
     # Modification: Ensure setting a counter to zero is allowed.
     # ===========================
     def test_prevent_negative_counter_values(self, client):
@@ -206,6 +238,8 @@ class TestCounterEndpoints:
         assert response_negative.status_code == HTTPStatus.BAD_REQUEST  
         
         # TODO: Add an assertion to verify the response message contains a clear error
+        error_message = response_negative.get_json().get("error")
+        assert error_message == "Counter value cannot be negative"
 
     # ===========================
     # Test: Reset a single counter
@@ -236,6 +270,7 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.NOT_FOUND
 
         # TODO: Add an assertion to verify the error message contains the word 'not found'
+        assert "not found" in response.get_json()['error']
 
     # ===========================
     # Stella Heo
@@ -293,6 +328,7 @@ class TestCounterEndpoints:
         # TODO: Add an assertion to ensure 'b' (value=2) is returned as the lowest.
 
     # ===========================
+    # William Rosales
     # Test: Validate counter names (prevent special characters)
     # Author: Student 11
     # Modification: Ensure error message is specific.
@@ -304,3 +340,4 @@ class TestCounterEndpoints:
         assert response.status_code == HTTPStatus.BAD_REQUEST
 
         # TODO: Add an assertion to verify the error message specifically says 'Invalid counter name'S
+        assert "Invalid counter name. " in response.get_json()['error'] 
