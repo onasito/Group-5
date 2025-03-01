@@ -188,6 +188,24 @@ class TestCounterEndpoints:
     # Author: Student 4
     # Modification: Ensure setting a counter to the same value does nothing.
     # ===========================
+    '''
+    This test function verifies the behavior of setting a counter to a specific value using the API. 
+    Additionally, it ensures that setting the counter to the same value again does not alter its 
+    state or trigger unintended changes.
+    Create a Counter:
+        Sends a POST request to create a new counter named test1.
+    Set Counter to a Value:
+        Sends a PUT request to set test1 to 5.
+        Asserts that the response returns HTTP 200 (OK) and the counter is set to 5.
+    Set Counter to the Same Value Again:
+        Sends another PUT request to set test1 to 5 again.
+        Asserts that the response remains HTTP 200 (OK).
+        Asserts that the returned counter value remains unchanged at 5.
+    Expected Behavior:
+        The counter should correctly update when set to a new value.
+        Setting the counter to the same value should not cause any unintended changes
+    '''
+
     def test_set_counter_to_value(self, client):
         """It should set a counter to a specific value"""
         client.post('/counters/test1')
